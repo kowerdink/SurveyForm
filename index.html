@@ -11,18 +11,68 @@
     <main>
         <div class="container">
             <div class="div-title">
-                <h1 class="title">Code Survey</h1>
+                <h1 id="title">Code Survey</h1>
             </div>
             <div class="div-form">
                 <form id="survey-form" action="">
                     <label id="name-label" for="name">Name</label>
-                    <input id="name" type="text" placeholder="John">
+                    <input id="name" type="text" placeholder="Ej: John" required>
                     <label id="email-label" for="email">e-mail</label>
-                    <input id="email" type="mail" placeholder="johnd2024@mail.com">
+                    <input id="email" type="mail" placeholder="Ej: john2024@mail.com" required>
                     <label id="number-label" for="age">Age</label>
-                    <input id="number" type="number" placeholder="24">
+                    <input id="number" type="number" placeholder="Ej: 24" required>
+                    <p>Which option best describes your current role?</p>
+                    <select name="role" id="dropdown">
+                        <option disabled selected value>Select current role</option>
+                        <option value="">student</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Freelancer</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                    <p>What language do you use?</p>
+                    <select name="languages" id="dropdown-2">
+                        <option disabled selected value>Select you language</option>
+                        <option value="">JavaScript</option>
+                        <option value="">Python</option>
+                        <option value="">Java</option>
+                        <option value="">C#</option>
+                        <option value="">C++</option>
+                        <option value="">C</option>
+                        <option value="">PHP</option>
+                        <option value="">Ruby</option>
+                        <option value="">Dart</option>
+                        <option value="">Go</option>
+                        <option value="">Other</option>
+                    </select>
+                    <p>What area of Software Development do you prefer?</p>
+                    <select name="languages" id="dropdown-2">
+                        <option disabled selected value>Select you area</option>
+                        <option value="">Web Development</option>
+                        <option value="">Data Science</option>
+                        <option value="">Machine lerning</option>
+                        <option value="">Deep lerning</option>
+                        <option value="">Movile Development</option>
+                        <option value="">Software Development</option>
+                        <option value="">Game Development</option>
+                        <option value="">App Development</option>
+                        <option value="">Big Data</option>
+                        <option value="">Other</option>
+                    </select>
+                    <div class="form-div-2">
+                        <p>Would you recommend starting coding to a friend?</p>
+                        <label for=""><input type="radio" value="Sure">Sure!!</label>
+                        <label for=""><input type="radio" value="Maybe">Maybe</label>
+                        <label for=""><input type="radio" value="Not">Not a all</label>
+                    </div>
+                    
+                </form>
+                <form action="">
+                    
                 </form>
             </div>
+            
         </div>
     </main>
     

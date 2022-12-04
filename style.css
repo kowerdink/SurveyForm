@@ -11,37 +11,74 @@
 }
 
 #survey-form {
-    width: 400px;
-    height: 320px;
+    width: 587px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 39px;
     background-color: wheat;
-    border-radius: 30px;
-    margin-top: 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-family: Helvetica, sans-serif;
 }
 
-.div-form {
+/*.div-form {
     
-    height: 100vh;
-}
+    
+}*/
 
 form label {
     margin: 20px 10px 9px;
     font-size: 18px;
-    font-family: Helvetica, sans-serif;
     letter-spacing: 3px;
 }
 
 form input {
-    width: 350px;
-    height: 25px;
-    border-radius: 4px;
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
     border: none;
     border-bottom: solid 2px blue;
     text-indent: 10px;
+    margin-bottom: 20px;
+}
+
+form p {
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+form select {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    text-indent: 10px;
+    margin-top: 12px;
+
+}
+
+.form-div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 12px;
+    letter-spacing: 1px;
+    
+}
+
+.form-div-2 label {
+    margin: 0;
+}
+
+.form-div-2 input{
+    width: 30px;
+    height: 18px;
+}
+
+.form-div-2 p {
+    margin-bottom: 10px;
 }
 
 .div-title {
@@ -50,7 +87,7 @@ form input {
     background-color: rgb(35, 51, 75);
 }
 
-.title {
+#title {
     text-align: center;
     padding: 70px;
     color: white;
