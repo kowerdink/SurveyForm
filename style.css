@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #f0f0f0;
 }
 
 #survey-form {
@@ -54,7 +55,7 @@ form select {
     border-radius: 4px;
     text-indent: 10px;
     margin-bottom: 31px;
-
+    outline: none;
 }
 
 .form-div-2 {
@@ -119,6 +120,8 @@ form select {
     resize: vertical;
     margin-top: 12px;
     margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
     outline: none;
 }
 
@@ -132,8 +135,8 @@ form select {
     background-color: rgb(4, 149, 162);
     width: 100%;
     height: 50px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
     font-size: 18px;
     margin-top: 40px;
 }
