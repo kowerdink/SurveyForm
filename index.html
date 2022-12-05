@@ -62,13 +62,27 @@
                     </select>
                     <div class="form-div-2">
                         <p>Would you recommend starting coding to a friend?</p>
-                        <label for=""><input type="radio" value="Sure">Sure!!</label>
-                        <label for=""><input type="radio" value="Maybe">Maybe</label>
-                        <label for=""><input type="radio" value="Not">Not a all</label>
+                        <label for="#"><input name="recommend" type="radio" value="Sure">Sure!!</label>
+                        <label for="#"><input name="recommend" type="radio" value="Maybe">Maybe</label>
+                        <label for="#"><input name="recommend" type="radio" value="Not">Not a all</label>
                     </div>
-                    <div class="checkbox-div"></div>
-                    <div>
-                        <button class="submit-button" type="submit">SUBMIT</button>
+                    <div class="form-div-2">
+                        <p>What would you like to do? (Check all that apply)</p>
+                        <label for=""><input name="recommend" type="checkbox" value="Front">Front-end</label>
+                        <label for=""><input name="recommend" type="checkbox" value="Back">Back-end</label>
+                        <label for=""><input name="recommend" type="checkbox" value="QA">QA - Testing</label>
+                        <label for=""><input name="recommend" type="checkbox" value="DevOps">Dev-Ops</label>
+                        <label for=""><input name="recommend" type="checkbox" value="CloudService">Cloud services</label>
+                        <label for=""><input name="recommend" type="checkbox" value="UXUI">UX/UI</label>
+                        <label for=""><input name="recommend" type="checkbox" value="Other">Other</label>
+                    </div>
+                    <div class="textartea-div">
+                        <p>Why do you like making code or what do you think about coding?
+                        </p>
+                        <textarea class="textarea" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="botton-div">
+                        <button id="submit" type="submit">SUBMIT</button>
                     </div>
                 </form>
             </div>
